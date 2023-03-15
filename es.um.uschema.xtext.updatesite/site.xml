@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/es.um.uschema.xtext.athena.feature_1.0.0.jar" id="es.um.uschema.xtext.athena.feature" version="1.0.0">
+      <category name="Athena"/>
+   </feature>
+   <category-def name="Athena" label="Athena: Schema Definition Language"/>
+   <category-def name="Deimos" label="Deimos: Data Generation and Mapping Operations"/>
+   <category-def name="Orion" label="Orion: Schema Change Operation Language"/>
+</site>
