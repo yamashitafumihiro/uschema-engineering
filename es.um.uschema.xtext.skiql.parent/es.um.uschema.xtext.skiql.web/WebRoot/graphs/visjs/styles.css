@@ -1,0 +1,28 @@
+#mynetwork {
+  width: 600px;
+  height: 400px;
+  border: 1px solid lightgray;
+}
+code {
+  font-size: 15px;
+}
+p {
+  max-width: 600px;
+}
+.indented {
+  margin-left: 30px;
+}
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+table code {
+  background: #dddddd;
+}
+th,
+td {
+  border: 1px solid #aaaaaa;
+  text-align: center;
+  padding: 5px;
+  font-weight: normal;
+}

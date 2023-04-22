@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+	margin: 0;
+	overflow: hidden;
+	font: 16px Helvetica,sans-serif;
+}
+
+a {
+	color: #22a;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#central-container {
+	display: flex;
+	width: 100%;
+    height: 90%;
+}
+
+#navi-div {
+	margin: 0%;
+	height: 13%;
+}
+
+#editor-div {
+	width: 100%;
+	height: 100%;	
+	float: left;
+	margin: 0 1% 0 1%;
+}
+
+#table-div {
+	padding: 2%;
+	height: 100%;
+}
+
+#xtext-editor {
+	width: 100%;
+	height: 100%;	
+	float: left;
+	padding: 4px;
+	border: 1px solid #0077aa;
+}
+
+div.left-tab {
+	margin: 1% 1% 1% 1%;
+	border: 1px solid #0077aa;
+	width: 50%;
+	height: 86%;
+}
+
+div.result {
+	width: 100%;	
+	float: left;
+	padding: 4px;
+	border: 1px solid #0077aa;
+	margin: 1% 1% 0% 0%;
+	height: 86%;
+}
+
+#var-table {
+	width: 100%;
+	height: 100%;
+}
+
+div.header {
+	text-align: center;
+	background-color: rgb(248, 249, 250)
+}
+
+#title {
+	margin: 0;
+	padding: 0 0 0.5% 0;
+}
+
+#generator-result {
+	min-height: 100%;
+    height: 100%;
+}
+
+#graph {
+    height: 73%;
+}
+
+#treemap {
+    height: 27%;
+}

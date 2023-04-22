@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>visjs</title>
+	<script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+	<div id="mynetwork" style="height:100vh"></div>
+	<script type="text/javascript">
+		var nodes = [
+			{
+				id: 1,
+				font: { multi: true },
+				label: "<b>ENTITY:</b> Prize",
+			},
+			{
+				id: 2,
+				font: { multi: "html" },
+				label: "<b><i>event: String</i></b>\n<b><i>year: Number</i></i>",
+			},
+			{
+				id: 3,
+				font: { multi: "html" },
+				label: "<b><i>event: String</i></b>\n<b><i>year: Number</i></b>\nname: String",
+			},
+			{
+				id: 11,
+				font: { multi: true },
+				label: "<b>ENTITY:</b> Movie",
+			},
+			{
+				id: 12,
+				font: { multi: "html" },
+				label: "<b><i>title: String</i></b>",
+			},
+			{
+				id: 13,
+				font: { multi: "html"  },
+				label: "<b><i>title: String</i></b>\nduration: Number",
+			}
+		];
+
+		var edges = [
+			{ from: 1, to: 2, },
+			{ from: 1, to: 3, },
+			{ from: 11, to: 12, },
+			{ from: 11, to: 13, }
+		];
+
+		var container = document.getElementById("mynetwork");
+		var data = {
+			nodes: nodes,
+			edges: edges
+		};
+		var options = {
+			autoResize: true,
+			height: '100%',
+			width: '100%',
+			edges: {
+				font: {
+					size: 12,
+				},
+			},
+			nodes: {
+				color: "#FFFFFF",
+				shape: "box",
+				font: {
+					bold: {
+						color: "#0077aa",
+					}
+				},
+			},
+			layout: {
+    			hierarchical: true
+			}
+		};
+		var network = new vis.Network(container, data, options);
+	</script>
+</body>
+</html>
+
