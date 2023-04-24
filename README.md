@@ -19,4 +19,14 @@ The repository contains the following projects:
 
 * `es.um.uschema.xtext.athena.parent`: Project containing the Athena language, its corresponding editors and the Athena engine.
 * `es.um.uschema.xtext.skiql.parent`: Project containing the SkiQL language and the web-based U-Schema visualization.
+* `es.um.uschema.xtext.orion.parent`: Project containing the Orion language, the Orion engine and its corresponding editors.
+* `es.um.uschema.alloy`: Project containing the validation of the Orion taxonomy using the Alloy language.
 * `es.um.uschema.subtypes`: Project containing *Eirene*, the entity inheritance discovery algorithm.
+
+List of related publications:
+
+* Alberto Hernández Chillón, José Ramón Hoyos, Jesús García Molina, Diego Sevilla Ruiz, [Discovering Entity Inheritance Relationships in Document Stores](https://www.sciencedirect.com/science/article/abs/pii/S0950705121006560). Knowledge-Based Systems 230: 107394.
+
+* Alberto Hernández Chillón, Diego Sevilla Ruiz, Jesús García Molina, [Towards a Taxonomy of Schema Changes for NoSQL Databases: The Orion Language](https://link.springer.com/chapter/10.1007/978-3-030-89022-3_15). The 40th International Conference on Conceptual Modeling, ER 2021, St. John's, NL, Canada.
+
+* Alberto Hernández Chillón, Diego Sevilla Ruiz, Jesús García Molina, [Athena: A Database-Independent Schema Definition Language](https://link.springer.com/chapter/10.1007/978-3-030-88358-4_4). CoMoNoS 2021, under ER 2021 conference, St. John's, NL, Canada.
