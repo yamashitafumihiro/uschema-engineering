@@ -1,0 +1,1 @@
+codeql database create cql_db --language=javascript --source-root=code --overwrite

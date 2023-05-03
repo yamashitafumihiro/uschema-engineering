@@ -1,0 +1,5 @@
+name: es-um-uschema-codeql/softwaredev-codeql-profiler
+version: 0.0.0
+dependencies:
+  codeql/javascript-all: "*"
+extractor: javascript

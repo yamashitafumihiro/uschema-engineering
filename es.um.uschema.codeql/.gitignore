@@ -1,0 +1,5 @@
+/bin/
+/xtend-gen/
+/target/
+/models/cql_db/
+/models/gen/.cache/

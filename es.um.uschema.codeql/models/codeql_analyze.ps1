@@ -1,0 +1,1 @@
+codeql database analyze cql_db gen/suite.qls --format=sarif-latest --output=results.sarif --rerun --verbose
