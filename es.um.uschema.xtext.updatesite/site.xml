@@ -6,6 +6,9 @@
    <feature url="features/es.um.uschema.xtext.orion.feature_1.0.0.jar" id="es.um.uschema.xtext.orion.feature" version="1.0.0">
       <category name="Orion"/>
    </feature>
+   <feature url="features/es.um.uschema.codeql.feature_1.0.0.jar" id="es.um.uschema.codeql.feature" version="1.0.0">
+      <category name="Orion"/>
+   </feature>
    <category-def name="Athena" label="Athena: Schema Definition Language"/>
    <category-def name="Deimos" label="Deimos: Data Generation and Mapping Operations"/>
    <category-def name="Orion" label="Orion: Schema Change Operation Language"/>
